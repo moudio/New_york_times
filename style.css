@@ -1,0 +1,42 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 50px;
+    background: cadetblue;
+}
+
+nav:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+.nav-login-button {
+    float: right;
+}
+
+
+nav ul img {
+    width: 200px;
+}
+
+.nav-logo {
+    position: absolute;
+    top: 0;
+    left: 45%;
+}
