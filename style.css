@@ -4,13 +4,20 @@ html {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+/* HEADER */
+
 nav {
-    position: relative;
-}
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 15px;
+  }
 
 nav ul {
     list-style-type: none;
-    padding: 0 50px;
+    padding: 0 40px;
     background: cadetblue;
 }
 
@@ -37,6 +44,35 @@ nav ul img {
 
 .nav-logo {
     position: absolute;
-    top: 0;
     left: 45%;
+
+}
+
+.space-cosmos {
+    font-weight: bold;
+}
+
+.space-cosmos, .nav-icons {
+    padding-left: 30px;
+}
+
+.nav-icons {
+    text-decoration: none;
+    color: black;
+}
+
+.space-cosmos:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-icons:hover {
+    color: lightgray;
+}
+
+/* MAIN */
+
+
+main {
+    margin-top: 67px;
 }
