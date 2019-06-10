@@ -107,4 +107,41 @@ nav ul img {
 
 main {
     margin-top: 67px;
+  
+}
+
+h1 { 
+    max-width: 400px;
+    font-style: italic;
+    line-height: 48px;
+    font-size: 30px;
+    margin: 0 auto;
+    
+}
+
+.main-image {
+    display: block;
+    margin: 10px auto 0;
+    width: 945px;
+    max-width: 100%;
+}
+
+.image-description {
+    margin: 10px auto 0;
+    width: 945px;
+    font-size: 14px;
+    color: lightslategray;
+}
+
+
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.body-image {
+    margin: 0 auto;
+    width: 600px;
 }
