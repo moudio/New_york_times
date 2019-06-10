@@ -6,6 +6,7 @@ html {
 
 nav {
     position: relative;
+    top: 0;
 }
 
 nav ul {
@@ -39,4 +40,14 @@ nav ul img {
     position: absolute;
     top: 0;
     left: 45%;
+}
+
+/* CONTAINER */
+
+.container {
+    width: 600px;
+}
+
+h1 {
+    text-align: center;
 }
