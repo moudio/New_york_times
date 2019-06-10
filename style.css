@@ -251,8 +251,9 @@ footer {
 .more, 
 .subscribe {
     float: left;
-    margin: 0 40px 0;
+    margin: 0 25px 0;
  }
+
 
  .footer-logo {
     float: left;
@@ -263,7 +264,61 @@ footer {
     float: right;
 }
 
+.footer-link-wrapper ul li, .footer-link-wrapper ul li a{
+   list-style-type: none;
+   text-decoration: none;
+   color: black;
+   font-size: 14px;
+   line-height: 20px;
+}
 
+.footer-link-wrapper ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-link-wrapper {
+    border-bottom: 1px solid lightgray;
+}
+
+.links {
+    position: relative;
+    float: left;
+}
+
+
+.subscribe1 {
+    font-weight: bold;
+    
+}
+
+.subscribe2{
+    font-size: 10px;
+    border-bottom: 1px dashed lightgray;
+
+}
+
+
+.footer-links {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.links li a , 
+.links li {
+    color: #999;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 11px;
+    float: left;
+    margin-right: 10px;
+    
+}
+
+.links li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 
 /* GALLERY */
