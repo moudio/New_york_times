@@ -11,7 +11,7 @@ html {
 nav {
     position: fixed;
     top: 0;
-   left: 0;
+    left: 0;
     width: 100%;
     border-bottom: 1px solid lightgray;
     padding-bottom: 5px;
@@ -89,7 +89,7 @@ nav ul img {
 }
 
 .nav-login-button button,
-.subscribe-now-button button {
+.subscribe-now-button button, .comments button{
     background: #6288a5;
     border: 1px solid #326891;
     color: #fff;
@@ -137,7 +137,7 @@ figure {
 figcaption {
     margin: 10px 0px;
     max-width: 900px;
-    font-size: 16px;
+    font-size: 14px;
     color: lightslategray;
 }
 
@@ -175,13 +175,20 @@ float: right;
 .social-icons ul li {
     float: left;
     margin: 10px;
-    background-color: lightgray;
-    border: 1px solid lightgray;
-    border-radius: 50%; 
+    background-color: #eee;
+    border: 1px solid #eee;
+    border-radius: 100%; 
     padding: 5px;
+    width: 20px;
+    height: 20px;
 
 }
-.date {
+
+li .fa {
+    margin: 0 auto;
+}
+
+.date, .comments {
     float: left;
     font-size: 17px;
 }
@@ -201,4 +208,51 @@ float: right;
 
 .author a {
     color: #333;
+}
+
+.line {
+    border: 1px solid black;
+    width: 20px;
+    
+}
+
+.video-caption, .image-caption {
+    font-size: 12px;
+    color: lightslategray;
+}
+
+a {
+    color: #326891;
+}
+
+.comments button {
+    width: 350px;
+    padding: 15px 20px;
+}
+
+
+
+/* FOOTER */
+ 
+footer {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.footer-line{
+    border-bottom: 1px double lightgray;
+    margin: 150px 0 0;
+}
+
+
+
+.news, 
+.opinion, 
+.arts, 
+.living, 
+.more, 
+.subscribe {
+    float: left;
+    margin: 0 auto;
+    list-style-type: none;
 }
