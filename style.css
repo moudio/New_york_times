@@ -4,15 +4,25 @@ html {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+/* HEADER */
+
 nav {
-    position: relative;
+    position: fixed;
     top: 0;
-}
+   left: 0;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 5px;
+    background-color: white;
+    
+  }
 
 nav ul {
     list-style-type: none;
-    padding: 0 50px;
-    background: cadetblue;
+    max-width: 1605px;
+    padding-top: 5px;
+    margin: 0 auto;
 }
 
 nav:after {
@@ -23,31 +33,78 @@ nav:after {
 	visibility: hidden;
 }
 
-nav li {
-    float: left;
+ul:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
 }
 
-.nav-login-button {
+nav li {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+
+}
+
+.nav-login-button,
+.subscribe-now-button {
     float: right;
 }
 
 
 nav ul img {
     width: 200px;
+    height: 35px;
 }
 
 .nav-logo {
     position: absolute;
-    top: 0;
     left: 45%;
+
 }
 
-/* CONTAINER */
-
-.container {
-    width: 600px;
+.space-cosmos {
+    font-weight: bold;
 }
 
-h1 {
-    text-align: center;
+.space-cosmos, .nav-icons {
+    padding-left: 30px;
+}
+
+.nav-icons {
+    text-decoration: none;
+    color: black;
+}
+
+.space-cosmos:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-icons:hover {
+    color: lightgray;
+}
+
+.nav-login-button button,
+.subscribe-now-button button {
+    background: #6288a5;
+    border: 1px solid #326891;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 11px 12px;
+    border-radius: 3px;
+    letter-spacing: 0.05em;
+    line-height: 11px;
+    margin-left: 5px;
+}
+
+/* MAIN */
+
+
+main {
+    margin-top: 67px;
 }
