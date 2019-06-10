@@ -107,6 +107,7 @@ nav ul img {
 
 body {
     color: #333;
+    overflow-x: hidden;
     
 }
 
@@ -241,7 +242,7 @@ footer {
 
 .footer-line{
     border-bottom: 1px double lightgray;
-    margin: 150px 0 0;
+    margin: 100px 0 0;
 }
 
 
@@ -255,4 +256,100 @@ footer {
     float: left;
     margin: 0 auto;
     list-style-type: none;
+ }
+
+/* GALLERY */
+
+.gallery-article {
+    width: 321px;
+    padding-bottom: 20px;
+    float: left;
+    margin: 0 10px;
+
+}
+
+.gallery-and-aside::after,
+.more-articles::after {
+    content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+
+}
+
+.gallery-and-aside {
+    width: 1250px;
+    margin: 0px auto;
+}
+
+.more-articles {
+    width: 73%;
+    border-top: 1.1px solid #333;
+    float: left;
+    margin-left: 15px;
+
+}
+
+.gallery-article {
+    width: 270px;
+}
+
+.gallery-article figure, 
+.gallery-article img {
+    width: 100%;
+    height: 181px;
+}
+
+.gallery-article h2 {
+    margin: 3px;
+    font-weight: lighter;
+}
+.gallery-article h2 a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+}
+
+.gallery-article figcaption {
+    margin: 0px;
+    font-size: 11px;
+}
+
+.gallery-article .date {
+    font-size: 13px;
+    margin: 0px;
+}
+
+
+.space-cosmos-title,
+.most-popular h2 {
+    font-size: 19px;
+}
+
+/* MOST POPULAR */
+
+.most-popular {
+    width: 23%;
+    float: right;
+    margin-left: 15px;
+    border-top: 1px solid #333;
+}
+
+.most-popular ul {
+    padding-left: 0;
+}
+.most-popular li {
+    font-size: 1rem;
+    line-height: 1.4375rem;
+    list-style-type: none;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding: 15px 0px;
+    font-weight: bold;
+
+}
+
+.most-popular li a {
+    text-decoration: none;
+    color:rgb(18,18,18)
 }
