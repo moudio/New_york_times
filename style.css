@@ -26,7 +26,10 @@ nav ul {
     margin: 0 auto;
 }
 
-nav:after {
+ul:after, 
+nav:after, 
+.footer-logo:after, 
+.footer-link-wrapper:after {
 	content: ".";
 	display: block;
 	height: 0;
@@ -34,13 +37,7 @@ nav:after {
 	visibility: hidden;
 }
 
-ul:after {
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
-}
+
 
 nav li {
     float: left;
@@ -242,7 +239,7 @@ footer {
 
 .footer-line{
     border-bottom: 1px double lightgray;
-    margin: 100px 0 0;
+    margin: 30px 0 0;
 }
 
 
@@ -254,9 +251,20 @@ footer {
 .more, 
 .subscribe {
     float: left;
-    margin: 0 auto;
-    list-style-type: none;
+    margin: 0 40px 0;
  }
+
+ .footer-logo {
+    float: left;
+   
+}
+
+.footer-link-title {
+    float: right;
+}
+
+
+
 
 /* GALLERY */
 
