@@ -265,6 +265,11 @@ footer::before {
     width: 14%;
  }
 
+.subscribe-icons {
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
 
  .footer-logo {
     float: left;
