@@ -242,9 +242,14 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.footer-line{
-    border-bottom: 1px double lightgray;
-    margin: 30px 0 0;
+
+footer::before {
+    content: "";
+    display: block;
+    height: 1px;
+    margin-top: 0px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    border-top: 2px solid rgb(226, 226, 226);
 }
 
 
@@ -298,6 +303,11 @@ footer {
 
 .footer-link-wrapper {
     border-bottom: 1px solid lightgray;
+    clear: left;
+}
+
+.footer-link-wrapper ul {
+    padding-left: 0;
 }
 
 .links {
@@ -306,9 +316,15 @@ footer {
 }
 
 
+.subscribe {
+    border-left: 1px solid lightgray;
+    height: 337px;
+}
+.subscribe-wrapper {
+    padding-left: 25px;
+}
 .subscribe1 {
     font-weight: bold;
-    
 }
 
 .subscribe2 {
@@ -316,7 +332,6 @@ footer {
     border-bottom: 1px dashed lightgray;
 
 }
-
 
 .footer-links {
     width: 70%;
@@ -331,7 +346,7 @@ footer {
     color: #999;
     text-decoration: none;
     list-style-type: none;
-    font-size: 11px;
+    font-size: 12px;
     float: left;
     margin-right: 10px;
     
@@ -343,13 +358,7 @@ footer {
 }
 
 
-.footer-link-wrapper {
-    clear: left;
-}
 
-.footer-link-wrapper ul {
-    padding-left: 0;
-}
 
 
 /* GALLERY */
