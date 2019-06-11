@@ -29,12 +29,15 @@ nav ul {
 ul:after, 
 nav:after, 
 .footer-logo:after, 
-.footer-link-wrapper:after {
+.footer-link-wrapper:after,
+.footer-title:after,
+.footer-link-title:after,
+.footer-line:after {
 	content: ".";
 	display: block;
 	height: 0;
 	clear: both;
-	visibility: hidden;
+    visibility: hidden;
 }
 
 
@@ -258,11 +261,20 @@ footer {
 
  .footer-logo {
     float: left;
+    margin: 10px auto;
+    width: 200px;
    
 }
 
 .footer-link-title {
     float: right;
+    margin-top: 10px;
+    font-size: 11px;
+    
+}
+
+.footer-link-title a {
+    text-decoration: none;
 }
 
 .footer-link-wrapper ul li, .footer-link-wrapper ul li a{
@@ -273,9 +285,13 @@ footer {
    line-height: 20px;
 }
 
-.footer-link-wrapper ul li a:hover {
+.footer-link-wrapper ul li a:hover  {
     cursor: pointer;
     text-decoration: underline;
+}
+
+.footer-link-title a:hover {
+    cursor: pointer;
 }
 
 .footer-link-wrapper {
@@ -319,6 +335,11 @@ footer {
 .links li a:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+
+.footer-link-wrapper {
+    clear: left;
 }
 
 
