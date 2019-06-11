@@ -214,6 +214,7 @@ li .fa {
     margin: 0 auto;
     width:20px;
     height:20px;
+    color: black;
 }
 
 .date, 
@@ -446,11 +447,11 @@ figcaption,
     height: 181px;
 }
 
-.gallery-article p {
-    margin: 3px;
+.gallery-title {
+    margin-top: 30px;
     font-weight: lighter;
 }
-.gallery-article p a {
+.gallery-title a {
     text-decoration: none;
     color: #333;
 }
@@ -466,8 +467,9 @@ figcaption,
 
 
 .space-cosmos-title,
-.gallery-article p a,
-.most-popular p {
+.gallery-title a,
+.most-popular p,
+.editor-title {
     font-size: 19px;
 }
 
@@ -488,7 +490,7 @@ figcaption,
 }
 .most-popular li {
     font-size: 1.1rem;
-    line-height: 1.4375rem;
+    line-height: 1.7375rem;
     list-style-type: none;
     border-top: 1px solid rgb(226, 226, 226);
     padding: 15px 0;
@@ -500,4 +502,9 @@ figcaption,
 .most-popular li a {
     text-decoration: none;
     color:rgb(18,18,18)
+}
+
+.editor-pick {
+    float: left;
+    border-top: 1px solid #333;
 }
