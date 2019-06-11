@@ -4,7 +4,33 @@ html {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.footer-link-title, 
+.gallery-article figcaption, 
+.nav-login-button button,
+.subscribe-now-button button, 
+.comments button,
+.subscribe2 {
+    font-size: 11px;
+}
 
+.date, 
+.comments, 
+.author{
+    font-size: 17px;
+}
+
+.video-caption, 
+.image-caption, 
+.links li a, 
+.links li {
+    font-size: 12px;
+}
+
+.gallery-article .date,
+.footer-link-wrapper ul li, 
+.footer-link-wrapper ul li a {
+    font-size: 13px;
+} 
 
 /* HEADER */
 
@@ -43,14 +69,17 @@ nav:after,
 
 
 nav li {
-    float: left;
+    
     height: 35px;
     line-height: 35px;
 
 }
 
 .nav-login-button,
-.subscribe-now-button {
+.subscribe-now-button,
+.social-icons,
+.footer-link-title,
+.most-popular {
     float: right;
 }
 
@@ -93,7 +122,6 @@ nav ul img {
     background: #6288a5;
     border: 1px solid #326891;
     color: #fff;
-    font-size: 11px;
     font-weight: 700;
     cursor: pointer;
     padding: 11px 12px;
@@ -138,7 +166,6 @@ figure {
 figcaption {
     margin: 10px 0;
     max-width: 900px;
-    font-size: 14px;
     color: lightslategray;
 }
 
@@ -164,35 +191,48 @@ figcaption {
 }
 
 
-.social-icons {
-float: right;
-}
+
 
 .social-icons ul {
     list-style-type: none;
     padding: 0;
+    
 }
 
 .social-icons ul li {
-    float: left;
+   
     margin: 10px;
     background-color: #eee;
-    border: 1px solid #eee;
     border-radius: 100%; 
     padding: 5px;
-    width: 20px;
-    height: 20px;
+   
     text-align: center;
 
 }
 
 li .fa {
     margin: 0 auto;
+    width:20px;
+    height:20px;
 }
 
-.date, .comments {
+.date, 
+.comments,
+.news, 
+.opinion, 
+.arts, 
+.living, 
+.more, 
+.subscribe,
+.footer-logo,
+.links,
+.links li a , 
+.links li,
+.gallery-article,
+.more-articles,
+nav li,
+.social-icons ul li {
     float: left;
-    font-size: 17px;
 }
 
 .icons-and-date:after {
@@ -204,32 +244,29 @@ li .fa {
 }
 
 .author {
- font-weight: 700;
- font-size: 17px;   
+ font-weight: 700; 
 }
 
 .author a {
     color: #333;
 }
 
-.line {
-    border: 1px solid black;
-    width: 20px;
-    
-}
 
 .video-caption, .image-caption {
-    font-size: 12px;
-    color: lightslategray;
+    color: rgb(183, 210, 236);
 }
 
 a {
     color: #326891;
 }
 
+.comments p {
+   padding: 15px 20px;
+}
+
 .comments button {
     width: 350px;
-    padding: 15px 20px;
+    height: 45px;
 }
 
 
@@ -243,13 +280,18 @@ footer {
 }
 
 
-footer::before {
+.footer-line {
+    border-bottom: 1px solid rgb(226, 226, 226);
+    border-top: 2px solid rgb(226, 226, 226);
+
+}
+
+.footer-line::before{
     content: "";
     display: block;
     height: 1px;
-    margin-top: 0px;
-    border-bottom: 1px solid rgb(226, 226, 226);
-    border-top: 2px solid rgb(226, 226, 226);
+    margin-top: 0;
+    
 }
 
 
@@ -260,7 +302,6 @@ footer::before {
 .living, 
 .more, 
 .subscribe {
-    float: left;
     margin-right: 25px;
     width: 14%;
  }
@@ -272,16 +313,13 @@ footer::before {
 
 
  .footer-logo {
-    float: left;
     margin: 10px auto;
     width: 200px;
    
 }
 
 .footer-link-title {
-    float: right;
     margin-top: 10px;
-    font-size: 11px;
     
 }
 
@@ -289,11 +327,14 @@ footer::before {
     text-decoration: none;
 }
 
+.footer-link-wrapper p {
+    font-weight: bold;
+}
+
 .footer-link-wrapper ul li, .footer-link-wrapper ul li a{
    list-style-type: none;
    text-decoration: none;
    color: black;
-   font-size: 13px;
    line-height: 26px;
 }
 
@@ -317,7 +358,6 @@ footer::before {
 
 .links {
     position: relative;
-    float: left;
 }
 
 
@@ -333,7 +373,6 @@ footer::before {
 }
 
 .subscribe2 {
-    font-size: 10px;
     border-bottom: 1px dashed lightgray;
 
 }
@@ -343,16 +382,16 @@ footer::before {
     margin: 0 auto;
 }
 
-.footer-link-wrapper h3 {
+figcaption,
+.footer-link-wrapper p {
     font-size: 14px;
 }
+
 .links li a , 
 .links li {
     color: #999;
     text-decoration: none;
     list-style-type: none;
-    font-size: 12px;
-    float: left;
     margin-right: 10px;
     
 }
@@ -371,7 +410,6 @@ footer::before {
 .gallery-article {
     width: 321px;
     padding-bottom: 20px;
-    float: left;
     margin: 0 10px;
 
 }
@@ -388,13 +426,12 @@ footer::before {
 
 .gallery-and-aside {
     width: 1250px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .more-articles {
     width: 73%;
     border-top: 1.1px solid #333;
-    float: left;
     margin-left: 15px;
 
 }
@@ -409,37 +446,39 @@ footer::before {
     height: 181px;
 }
 
-.gallery-article h2 {
+.gallery-article p {
     margin: 3px;
     font-weight: lighter;
 }
-.gallery-article h2 a {
-    font-size: 18px;
+.gallery-article p a {
     text-decoration: none;
     color: #333;
 }
 
 .gallery-article figcaption {
     margin: 0;
-    font-size: 11px;
+    
 }
 
 .gallery-article .date {
-    font-size: 13px;
     margin: 0;
 }
 
 
 .space-cosmos-title,
-.most-popular h2 {
+.gallery-article p a,
+.most-popular p {
     font-size: 19px;
+}
+
+.most-popular p {
+    font-weight: bold;
 }
 
 /* MOST POPULAR */
 
 .most-popular {
     width: 23%;
-    float: right;
     margin-left: 15px;
     border-top: 1px solid #333;
 }
@@ -452,7 +491,7 @@ footer::before {
     line-height: 1.4375rem;
     list-style-type: none;
     border-top: 1px solid rgb(226, 226, 226);
-    padding: 15px 0px;
+    padding: 15px 0;
     font-weight: bold;
 
 
