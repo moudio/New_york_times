@@ -340,12 +340,13 @@ footer {
     padding-left: 0;
 }
 .most-popular li {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.4375rem;
     list-style-type: none;
-    border-bottom: 1px solid rgb(226, 226, 226);
+    border-top: 1px solid rgb(226, 226, 226);
     padding: 15px 0px;
     font-weight: bold;
+
 
 }
 
