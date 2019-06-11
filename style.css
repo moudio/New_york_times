@@ -133,7 +133,7 @@ figure {
 }
 
 figcaption {
-    margin: 10px 0px;
+    margin: 10px 0;
     max-width: 900px;
     font-size: 14px;
     color: lightslategray;
@@ -179,6 +179,7 @@ float: right;
     padding: 5px;
     width: 20px;
     height: 20px;
+    text-align: center;
 
 }
 
@@ -375,13 +376,13 @@ footer {
 }
 
 .gallery-article figcaption {
-    margin: 0px;
+    margin: 0;
     font-size: 11px;
 }
 
 .gallery-article .date {
     font-size: 13px;
-    margin: 0px;
+    margin: 0;
 }
 
 
@@ -407,7 +408,7 @@ footer {
     line-height: 1.4375rem;
     list-style-type: none;
     border-bottom: 1px solid rgb(226, 226, 226);
-    padding: 15px 0px;
+    padding: 15px 0;
     font-weight: bold;
 
 }
