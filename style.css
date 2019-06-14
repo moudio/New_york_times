@@ -137,6 +137,7 @@ nav ul img {
 body {
     color: #333;
     overflow-x: hidden;
+
     
 }
 
@@ -245,6 +246,7 @@ nav li,
 	visibility: hidden;
 }
 
+
 .author {
  font-weight: 700; 
 }
@@ -258,6 +260,7 @@ nav li,
     position: absolute;
     right: 280px;
     width: 200px;
+    z-index: -1;
 
 }
 
@@ -277,6 +280,58 @@ nav li,
 width: 90%;
 margin: 0 auto;
 }
+
+.editor-sidebar{
+    position: absolute;
+    width: 240px;
+    height: 300px;
+    right: 280px;
+    top: 212%;
+    z-index: -1;
+}
+
+.pick {
+    font-size: 14px;
+    margin-bottom: 10px;
+  
+}
+
+.editor-wrapper {
+    border-top: 1px solid lightgray;
+}
+
+.editor-wrapper a {
+  text-decoration: none;
+
+}
+
+.editor-wrapper a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.editor-news {
+    margin-top: 15px;
+}
+
+.editor-news:after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+.editor-thumbnail {
+    float: left;   
+    margin-right: 10px;
+   
+}
+
+
+.title {
+  font-size: 13px;  
+  color: #333;
+}
+
 
 .video-caption, .image-caption {
     color: rgb(183, 210, 236);
