@@ -136,6 +136,7 @@ nav ul img {
 body {
     color: #333;
     overflow-x: hidden;
+
     
 }
 
@@ -244,12 +245,65 @@ nav li,
 	visibility: hidden;
 }
 
+
 .author {
  font-weight: 700; 
 }
 
 .author a {
     color: #333;
+}
+
+
+
+.editor-sidebar{
+    position: absolute;
+    width: 220px;
+    height: 300px;
+    left: 77%;
+    top: 256%;
+}
+
+.pick {
+    font-size: 14px;
+    margin-bottom: 10px;
+  
+}
+
+.editor-wrapper {
+    border-top: 1px solid lightgray;
+}
+
+.editor-wrapper a {
+  text-decoration: none;
+
+}
+
+.editor-wrapper a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.editor-news {
+    margin-top: 15px;
+}
+
+.editor-news:after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+.editor-thumbnail {
+    float: left;   
+    margin-right: 10px;
+   
+}
+
+
+.title {
+  font-size: 12px;  
+  color: #333;
 }
 
 
