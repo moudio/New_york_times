@@ -258,7 +258,7 @@ nav li,
 
 .editor-sidebar{
     position: absolute;
-    width: 220px;
+    width: 240px;
     height: 300px;
     left: 77%;
     top: 256%;
@@ -302,7 +302,7 @@ nav li,
 
 
 .title {
-  font-size: 12px;  
+  font-size: 13px;  
   color: #333;
 }
 
