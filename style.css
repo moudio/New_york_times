@@ -118,7 +118,8 @@ nav ul img {
 }
 
 .nav-login-button button,
-.subscribe-now-button button, .comments button{
+.subscribe-now-button button, .comments button,
+.signup-for-science button {
     background: #6288a5;
     border: 1px solid #326891;
     color: #fff;
@@ -252,6 +253,30 @@ nav li,
     color: #333;
 }
 
+
+.signup-for-science {
+    position: absolute;
+    right: 280px;
+    width: 200px;
+
+}
+
+.signup-for-science p {
+    font-size: 15px;
+    text-align: left;
+    line-height: 1rem;
+    color: rgb(102, 102, 102);
+
+}
+
+.signup-h2 {
+    font-size: 19px;
+}
+
+.signup-for-science button {
+width: 90%;
+margin: 0 auto;
+}
 
 .video-caption, .image-caption {
     color: rgb(183, 210, 236);
