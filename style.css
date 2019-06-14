@@ -42,6 +42,7 @@ nav {
     border-bottom: 1px solid lightgray;
     padding-bottom: 5px;
     background-color: white;
+    z-index: 1;
     
   }
 
@@ -260,7 +261,6 @@ nav li,
     position: absolute;
     right: 280px;
     width: 200px;
-    z-index: -1;
 
 }
 
@@ -286,8 +286,7 @@ margin: 0 auto;
     width: 240px;
     height: 300px;
     right: 280px;
-    top: 212%;
-    z-index: -1;
+    top: 200%;
 }
 
 .pick {
