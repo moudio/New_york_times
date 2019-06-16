@@ -138,7 +138,7 @@ nav ul img {
 body {
     color: #333;
     overflow-x: hidden;
-
+    max-width: 1845px;
     
 }
 
@@ -256,13 +256,15 @@ nav li,
     color: #333;
 }
 
-
-.signup-for-science {
-    position: absolute;
-    /*right: 280px;*/
+.side-content {
     width: 200px;
-    left: 75%;
+    position: absolute;
+    right: 150px;
+    top: 1600px;
+}
 
+.editor-sidebar {
+    margin-bottom: 700px;
 }
 
 .signup-for-science p {
@@ -282,13 +284,6 @@ width: 90%;
 margin: 0 auto;
 }
 
-.editor-sidebar{
-    position: absolute;
-    width: 240px;
-    height: 300px;
-    left: 75%;
-    top: 200%;
-}
 
 .pick {
     font-size: 14px;
@@ -582,4 +577,18 @@ figcaption,
 .editor-pick {
     float: left;
     border-top: 1px solid #333;
+}
+
+@media only screen and (max-width:1330px){
+    .side-content {
+    position: absolute;
+        right: 30px; 
+
+    }
+}
+
+@media only screen and (max-width: 1080px ){
+    .side-content {
+        display: none;
+    }
 }
